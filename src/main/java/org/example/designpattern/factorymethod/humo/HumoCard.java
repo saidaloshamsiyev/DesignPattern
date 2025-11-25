@@ -8,6 +8,6 @@ import org.example.designpattern.factorymethod.card.Card;
 public class HumoCard implements Card {
     @Override
     public void cardInfo() {
-        System.out.println("Humo: 5614 **** **** 1234");
+        System.out.println("Humo created: 5614 **** **** 1234");
     }
 }

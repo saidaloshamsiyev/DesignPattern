@@ -3,7 +3,6 @@ package org.example.designpattern.factorymethod;
 import org.example.designpattern.factorymethod.card.Card;
 import org.example.designpattern.factorymethod.card.factorymethod.Bank;
 import org.example.designpattern.factorymethod.humo.HumoCard;
-import org.example.designpattern.factorymethod.humo.factorymethod.HumoBank;
 import org.example.designpattern.factorymethod.uzcard.UzCard;
 import org.example.designpattern.factorymethod.uzcard.factorymethod.UzCardBank;
 
@@ -12,11 +11,6 @@ public class FactoryMethodTesting {
 
         Bank uzcard = new UzCardBank();
         uzcard.issueCard();
-
-
-        Bank humo = new HumoBank();
-        humo.issueCard();
-
 
     }
 

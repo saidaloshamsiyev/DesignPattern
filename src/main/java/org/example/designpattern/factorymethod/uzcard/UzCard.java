@@ -8,7 +8,7 @@ import org.example.designpattern.factorymethod.card.Card;
 public class UzCard implements Card {
     @Override
     public void cardInfo() {
-        System.out.println("UzCard: 8690 **** **** ****");
+        System.out.println("UzCard created: 8690 **** **** ****");
     }
 }
 
