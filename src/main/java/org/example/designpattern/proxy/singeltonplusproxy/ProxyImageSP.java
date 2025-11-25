@@ -1,12 +1,12 @@
 package org.example.designpattern.proxy.singeltonplusproxy;
 
-public class ProxyImageSP implements ImageSP {  
+public class ProxyImageSP implements ImageSP {
     private RealImageSP realImageSP;
     private String fileName;
 
     private ProxyImageSP instance;
 
-    public ProxyImageSP(String fileName) {
+    private ProxyImageSP(String fileName) {
         this.fileName = fileName;
     }
 
